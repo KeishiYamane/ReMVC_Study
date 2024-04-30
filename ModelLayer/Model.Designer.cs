@@ -41,6 +41,7 @@
             StartListenerBtn.TabIndex = 0;
             StartListenerBtn.Text = "サーバー起動";
             StartListenerBtn.UseVisualStyleBackColor = true;
+            StartListenerBtn.Click += StartListenerBtn_Click;
             // 
             // LogTxtBox_Model
             // 
