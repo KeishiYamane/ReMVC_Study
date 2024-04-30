@@ -52,6 +52,7 @@
             // 
             // ColorPanel
             // 
+            ColorPanel.BackColor = Color.Black;
             ColorPanel.Location = new Point(258, 12);
             ColorPanel.Name = "ColorPanel";
             ColorPanel.Size = new Size(128, 47);
