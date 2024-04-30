@@ -30,7 +30,7 @@
         {
             StartListenerBtn = new Button();
             LogTxtBox_Model = new TextBox();
-            ColorPanel = new Panel();
+            ColorPanel_Model = new Panel();
             SuspendLayout();
             // 
             // StartListenerBtn
@@ -50,20 +50,20 @@
             LogTxtBox_Model.Size = new Size(374, 323);
             LogTxtBox_Model.TabIndex = 1;
             // 
-            // ColorPanel
+            // ColorPanel_Model
             // 
-            ColorPanel.BackColor = Color.Black;
-            ColorPanel.Location = new Point(258, 12);
-            ColorPanel.Name = "ColorPanel";
-            ColorPanel.Size = new Size(128, 47);
-            ColorPanel.TabIndex = 2;
+            ColorPanel_Model.BackColor = Color.Black;
+            ColorPanel_Model.Location = new Point(258, 12);
+            ColorPanel_Model.Name = "ColorPanel_Model";
+            ColorPanel_Model.Size = new Size(128, 47);
+            ColorPanel_Model.TabIndex = 2;
             // 
             // Model
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(412, 417);
-            Controls.Add(ColorPanel);
+            Controls.Add(ColorPanel_Model);
             Controls.Add(LogTxtBox_Model);
             Controls.Add(StartListenerBtn);
             Name = "Model";
@@ -76,6 +76,6 @@
 
         private Button StartListenerBtn;
         private TextBox LogTxtBox_Model;
-        private Panel ColorPanel;
+        private Panel ColorPanel_Model;
     }
 }

@@ -31,6 +31,7 @@
             ConnectBtn = new Button();
             LogTxtBox_View = new TextBox();
             SendBtn = new Button();
+            ColorPanel_View = new Panel();
             SuspendLayout();
             // 
             // ConnectBtn
@@ -59,11 +60,20 @@
             SendBtn.Text = "送信";
             SendBtn.UseVisualStyleBackColor = true;
             // 
+            // ColorPanel_View
+            // 
+            ColorPanel_View.BackColor = Color.Black;
+            ColorPanel_View.Location = new Point(258, 12);
+            ColorPanel_View.Name = "ColorPanel_View";
+            ColorPanel_View.Size = new Size(128, 47);
+            ColorPanel_View.TabIndex = 4;
+            // 
             // View
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(412, 417);
+            Controls.Add(ColorPanel_View);
             Controls.Add(SendBtn);
             Controls.Add(LogTxtBox_View);
             Controls.Add(ConnectBtn);
@@ -78,5 +88,6 @@
         private Button ConnectBtn;
         private TextBox LogTxtBox_View;
         private Button SendBtn;
+        private Panel ColorPanel_View;
     }
 }
