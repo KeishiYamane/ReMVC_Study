@@ -68,7 +68,7 @@
             Controls.Add(LogTxtBox);
             Controls.Add(StartListenerBtn);
             Name = "View";
-            Text = "Form1";
+            Text = "ビュー";
             ResumeLayout(false);
             PerformLayout();
         }
