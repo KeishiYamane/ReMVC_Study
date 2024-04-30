@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReMVC_Study", "ReMVC_Study\ReMVC_Study.csproj", "{332BA86A-D0AA-4662-B627-2413D3DBAA71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "ReMVC_Study\Model.csproj", "{332BA86A-D0AA-4662-B627-2413D3DBAA71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
