@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             StartListenerBtn = new Button();
-            LogTxtBox = new TextBox();
+            LogTxtBox_Model = new TextBox();
             ColorPanel = new Panel();
             SuspendLayout();
             // 
@@ -42,13 +42,13 @@
             StartListenerBtn.Text = "サーバー起動";
             StartListenerBtn.UseVisualStyleBackColor = true;
             // 
-            // LogTxtBox
+            // LogTxtBox_Model
             // 
-            LogTxtBox.Location = new Point(12, 65);
-            LogTxtBox.Multiline = true;
-            LogTxtBox.Name = "LogTxtBox";
-            LogTxtBox.Size = new Size(374, 323);
-            LogTxtBox.TabIndex = 1;
+            LogTxtBox_Model.Location = new Point(12, 65);
+            LogTxtBox_Model.Multiline = true;
+            LogTxtBox_Model.Name = "LogTxtBox_Model";
+            LogTxtBox_Model.Size = new Size(374, 323);
+            LogTxtBox_Model.TabIndex = 1;
             // 
             // ColorPanel
             // 
@@ -64,7 +64,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(412, 417);
             Controls.Add(ColorPanel);
-            Controls.Add(LogTxtBox);
+            Controls.Add(LogTxtBox_Model);
             Controls.Add(StartListenerBtn);
             Name = "Model";
             Text = "モデル";
@@ -75,7 +75,7 @@
         #endregion
 
         private Button StartListenerBtn;
-        private TextBox LogTxtBox;
+        private TextBox LogTxtBox_Model;
         private Panel ColorPanel;
     }
 }
