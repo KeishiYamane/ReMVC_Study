@@ -42,6 +42,7 @@
             ConnectBtn.TabIndex = 1;
             ConnectBtn.Text = "サーバー接続開始";
             ConnectBtn.UseVisualStyleBackColor = true;
+            ConnectBtn.Click += ConnectBtn_Click;
             // 
             // LogTxtBox_View
             // 
@@ -59,6 +60,7 @@
             SendBtn.TabIndex = 3;
             SendBtn.Text = "送信";
             SendBtn.UseVisualStyleBackColor = true;
+            SendBtn.Click += SendBtn_Click;
             // 
             // ColorPanel_View
             // 
